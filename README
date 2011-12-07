@@ -1,0 +1,29 @@
+Rock Paper Scissors
+
+This super awesome tool let's you run a consume the Twitter streaming API and play Rock Paper Scissors with people that mention it and include the word Rock, Paper, or Scissors.
+
+Installation:
+Copy config.yml.template to config.yml and fill in the twitter screen name and credentials from your Twitter account that will act as the bot.
+
+Run the daemon with:
+ruby rock_paper_scissors.rb start
+
+Tweet something like:
+@botname Rock, I choose you!
+
+The bot will reply with its answer.
+
+Customizing your own bot:
+Creating your own bot is super simple. CharlieMurphy is the default bot and should be used as a template for more complex bots.
+
+Your bot class needs to inherit from RockPaperScissorBot, and implement the following two methods:
+choice
+method
+
+You can test your bot to make sure it implements the interface correctly by running:
+ruby test.rb <BotClass>
+
+Run the following to see what the output should look like.
+ruby test.rb CharlieMurphy
+
+To modify which bots are used by the twitter daemon, edit the array at the top of rock_paper_scissors.rb

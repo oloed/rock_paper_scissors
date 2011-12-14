@@ -4,7 +4,9 @@ God.watch do |w|
   w.start = "ruby rock_paper_scissors.rb"
   w.start_grace = 10.seconds
   w.restart_grace = 10.seconds
- 
+  w.dir = '/var/www/rock_paper_scissors'
+  w.log = 'log'
+
   w.start_if do |start|
     start.condition(:process_running) do |c|
       c.running = false
@@ -16,12 +18,12 @@ God.watch do |w|
       c.above = 300.megabytes
       c.times = 2
     end
-  
+
     restart.condition(:cpu_usage) do |c|
       c.above = 90.percent
       c.times = 5
     end
-  end   
+  end
 
   w.lifecycle do |on|
     on.condition(:flapping) do |c|

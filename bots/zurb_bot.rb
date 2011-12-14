@@ -8,11 +8,11 @@ class ZURBBot < RockPaperScissorBot
   
   def message(result, bot_choice, human_choice, image_url)
     if result === WIN
-      "I choose #{bot_choice}! I win! Wanna go again? #{image_url}"
+      "We choose #{bot_choice}! Gotcha, sucka! Best two out of three? #{image_url}"
     elsif result === TIE
-      "#{bot_choice}! Tie. Alright, let's give it another shot. #{image_url}"
+      "#{bot_choice}! Tie, darn it!  OK, let's go again. #{image_url}"
     else
-      "I choose #{bot_choice}. Yikes, you got me. Again? #{image_url}"
+      "We choose #{bot_choice}!! Snap, you got me again! Best three out of four? #{image_url}"
     end
   end
   

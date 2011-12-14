@@ -1,7 +1,7 @@
 God.watch do |w|
   w.name  = "rock_paper_scissors"
   w.interval = 30.seconds
-  w.start = "ruby rock_paper_scissors.rb start"
+  w.start = "ruby rock_paper_scissors.rb"
   w.start_grace = 10.seconds
   w.restart_grace = 10.seconds
  

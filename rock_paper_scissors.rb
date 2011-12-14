@@ -30,7 +30,7 @@ Twitter.configure do |config|
   config.oauth_token_secret = CONFIG['oauth_token_secret']
 end
 
-client = TweetStream::Daemon.new
+client = TweetStream::Client.new
 
 client.on_limit do |skip_count|
   log "We've been limited #{skip_count} times"

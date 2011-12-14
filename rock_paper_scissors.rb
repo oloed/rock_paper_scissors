@@ -4,9 +4,10 @@ require 'twitter'
 require 'pp'
 require 'logger'
 require 'bots/charlie_murphy'
+require 'bots/zurb_bot'
 
 CONFIG = YAML.load_file("config.yml")
-opponents = [CharlieMurphy.new]
+opponents = [ZURBBot.new]
 
 search_phrase = 'rock_paper_scissors'
 bot_screen_name = "@#{CONFIG['bot_screen_name']}"

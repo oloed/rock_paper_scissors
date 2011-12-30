@@ -44,7 +44,12 @@ class TalkativeBot < RockPaperScissorBot
   # tie
   ROCK_VS_ROCK = [
     "Looks like we're between a rock and another rock. Let's call it a tie. Again?",
-    "Rock! Tie, darn it!  OK, let's go again."
+    "Rock! Tie, darn it!  OK, let's go again.",
+    "Rock it to me, baby! Tie! Another go?",
+    "Rock n’ roll! Let’s call a tie, again?",
+    "Looks like we’re up a rock. Darn tie! Again?",
+    "Stop copying my rock! Again?",
+    "Two rocks? Stop reading my mind. Let’s go again?"
   ]
   
   # we win
@@ -82,7 +87,11 @@ class TalkativeBot < RockPaperScissorBot
   # tie
   PAPER_VS_PAPER = [
     "Two pieces of paper is wasteful, should have just printed double sided.",
-    "Paper! Tie, darn it!  OK, let's go again."
+    "Paper! Tie, darn it!  OK, let's go again.",
+    "Two papers. Great, we can make a paper dragon. Again?",
+    "Paper all around. Let’s recycle and go again!",
+    "Enough with paper. Stop biting my moves! Again?",
+    "Paper! Maybe we can tie a knot. Let’s go again."
   ]
   
   # we win
@@ -104,7 +113,7 @@ class TalkativeBot < RockPaperScissorBot
   # we lose
   SCISSORS_VS_PAPER = [
     "That's cutting. We were expecting something a little softer. Play again?",
-    "Doh! What we’re we thinking with paper? Give us another chance?",
+    "Doh! What were we thinking with paper? Give us another chance?",
     "Well, that didn’t work as well as we thought. Let’s go again!",
     "Snap, where’d we go wrong! Let’s play again.",
     "You’ve sunk our battleship. Oops, wrong game. You win. Again?",
@@ -114,7 +123,11 @@ class TalkativeBot < RockPaperScissorBot
   # tie
   SCISSORS_VS_SCISSORS = [
     "Scissor fight! Oh, these are safety scissors. It's a tie then.  Again?",
-    "Scissors! Tie, darn it!  OK, let's go again."
+    "Scissors! Tie, darn it!  OK, let's go again.",
+    "Running with scissors! Tie! OK, again?",
+    "Scissors tie?! Guess we’re a cut above the rest. Again?",
+    "Darn it! A scissors draw! On 3 … 1, 2, and 3!",
+    "Two scissors. What are the odds? Let’s go again."
   ]
   
 end

@@ -46,10 +46,10 @@ class TalkativeBot < RockPaperScissorBot
     "Looks like we're between a rock and another rock. Let's call it a tie. Again?",
     "Rock! Tie, darn it!  OK, let's go again.",
     "Rock it to me, baby! Tie! Another go?",
-    "Rock n’ roll! Let’s call a tie, again?",
-    "Looks like we’re up a rock. Darn tie! Again?",
+    "Rock n' roll! Let's call a tie, again?",
+    "Looks like we're up a rock. Darn tie! Again?",
     "Stop copying my rock! Again?",
-    "Two rocks? Stop reading my mind. Let’s go again?"
+    "Two rocks? Stop reading my mind. Let's go again?"
   ]
   
   # we win
@@ -59,29 +59,29 @@ class TalkativeBot < RockPaperScissorBot
     "Paper, we win. Care to wrap this up with two out of three? You're trying too hard with a rock.",
     "A well-placed rock crushes scissors. Too bad, we chose paper. We win, 2 out of 3.",
     "We got a warm blanket of paper for your rock. Play again?",
-    "Didja forget how to play? We win. Let’s go for 2 out of 3.",
-    "Man, you’re good. But we’re better. We win, 2 out of 3."
+    "Didja forget how to play? We win. Let's go for 2 out of 3.",
+    "Man, you're good. But we're better. We win, 2 out of 3."
   ]
   
   # we lose
   ROCK_VS_SCISSORS = [
     "Try throwing another rock. We dare you. Play again.",
-    "Rock crushes our scissors. This ain’t over yet. Let’s go!",
+    "Rock crushes our scissors. This ain't over yet. Let's go!",
     "Rock again! You win. We gotta lot more fight left in us. Again?",
-    "You’ve got some mad skills throwing that rock. Let’s go again.",
+    "You've got some mad skills throwing that rock. Let's go again.",
     "Maybe we outta switch to thumb war. You win.",
-    "Who taught yah to play? We lose. Let’s go again.",
-    "Hold fast! You may have won but we’re not finished. Let’s go again."
+    "Who taught yah to play? We lose. Let's go again.",
+    "Hold fast! You may have won but we're not finished. Let's go again."
   ]
   
   # we lose
   PAPER_VS_ROCK = [
-    "Hit us again with a rock and you’ll be sorry. Let’s go again.",
-    "You’ve given us a paper cut. Let’s get a Band-Aid and play again.",
-    "A’right no more Mr. Nice Guy. You win. Play again?",
-    "We can’t take much more of this. Next time, we win. Let’s go!",
-    "We’re just getting our second wind. Give us a chance, 2 out of 3.",
-    "Maybe we’d have better luck at Candyland. You win, 2 out of 3."
+    "Hit us again with a rock and you'll be sorry. Let's go again.",
+    "You've given us a paper cut. Let's get a Band-Aid and play again.",
+    "A'right no more Mr. Nice Guy. You win. Play again?",
+    "We can't take much more of this. Next time, we win. Let's go!",
+    "We're just getting our second wind. Give us a chance, 2 out of 3.",
+    "Maybe we'd have better luck at Candyland. You win, 2 out of 3."
   ]
   
   # tie
@@ -89,22 +89,22 @@ class TalkativeBot < RockPaperScissorBot
     "Two pieces of paper is wasteful, should have just printed double sided.",
     "Paper! Tie, darn it!  OK, let's go again.",
     "Two papers. Great, we can make a paper dragon. Again?",
-    "Paper all around. Let’s recycle and go again!",
+    "Paper all around. Let's recycle and go again!",
     "Enough with paper. Stop biting my moves! Again?",
-    "Paper! Maybe we can tie a knot. Let’s go again."
+    "Paper! Maybe we can tie a knot. Let's go again."
   ]
   
   # we win
   PAPER_VS_SCISSORS = [
     "Things are looking up. Scissors cut your paper. Wanna go again?",
-    "Beat yah, again! But we’re willing to give you another chance.",
-    "Paper? Is that all you got? Let’s go again.",
+    "Beat yah, again! But we're willing to give you another chance.",
+    "Paper? Is that all you got? Let's go again.",
     "You call that a strategy?  We win, 2 out of 3."
   ]
   
   # we win
   SCISSORS_VS_ROCK = [
-    "Oh, we weren’t expecting that. Good thing we throw a rock. We win, 2 out of 3.",
+    "Oh, we weren't expecting that. Good thing we throw a rock. We win, 2 out of 3.",
     "Take that scissors! Rock wins. Best 2 out of 3?",
     "Scissors? What are yah some sort of cut-up? Rock wins! Play again?",
     "ZURB crush with rock. ZURB wanna play again."
@@ -114,10 +114,10 @@ class TalkativeBot < RockPaperScissorBot
   SCISSORS_VS_PAPER = [
     "That's cutting. We were expecting something a little softer. Play again?",
     "Doh! What were we thinking with paper? Give us another chance?",
-    "Well, that didn’t work as well as we thought. Let’s go again!",
-    "Snap, where’d we go wrong! Let’s play again.",
-    "You’ve sunk our battleship. Oops, wrong game. You win. Again?",
-    "You may have won. But we’re not going down with out a fight. Let’s go again!"
+    "Well, that didn't work as well as we thought. Let's go again!",
+    "Snap, where'd we go wrong! Let's play again.",
+    "You've sunk our battleship. Oops, wrong game. You win. Again?",
+    "You may have won. But we're not going down with out a fight. Let's go again!"
   ]
   
   # tie
@@ -125,9 +125,9 @@ class TalkativeBot < RockPaperScissorBot
     "Scissor fight! Oh, these are safety scissors. It's a tie then.  Again?",
     "Scissors! Tie, darn it!  OK, let's go again.",
     "Running with scissors! Tie! OK, again?",
-    "Scissors tie?! Guess we’re a cut above the rest. Again?",
-    "Darn it! A scissors draw! On 3 … 1, 2, and 3!",
-    "Two scissors. What are the odds? Let’s go again."
+    "Scissors tie?! Guess we're a cut above the rest. Again?",
+    "Darn it! A scissors draw! On 3 ... 1, 2, and 3!",
+    "Two scissors. What are the odds? Let's go again."
   ]
   
 end

@@ -1,6 +1,7 @@
+$:.unshift File.dirname(__FILE__)
 require 'rubygems'
-require 'tweetstream'
-require 'twitter'
+require 'bundler/setup'
+Bundler.require(:default)
 require 'pp'
 require 'logger'
 require 'bots/charlie_murphy'

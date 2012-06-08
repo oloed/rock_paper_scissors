@@ -8,6 +8,11 @@ require 'bots/charlie_murphy'
 require 'bots/zurb_bot'
 require 'bots/talkative_bot'
 
+# Array#choice was replaced by Array#sample in Ruby1.9
+class Array
+  alias :choice :sample
+end
+
 CONFIG = YAML.load_file("config.yml")
 opponents = [TalkativeBot.new]
 
